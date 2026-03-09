@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Ini halaman Produk</h1> <br>
+    <h1>INI HALAMAN CUSTOMERS</h1>
 
     @session('success')
     {{ session('success') }}
@@ -19,16 +19,16 @@
     {{ session('erorr') }}
     @endsession <br>
 
-    <a href="/customer/create">Tambah Kategori</a>
+    <a href="/customer/create"><button>+ Tambah Customers</button></a> <br><br>
 
     <form action="" method="GET">
         <input type="text" name="customer_name" placeholder="customer_name">
         <input type="text" name="address" placeholder="address" value="" >
         <button>Cari Data</button>
-    </form>
+    </form> <br>
 
     <div>
-        <table border="1">
+        <table border="2" cellpadding="8">
             <thead>
                 <tr>
                     <th>No</th>

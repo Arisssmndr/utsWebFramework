@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Tambah Data Customer</h1>
-    
+
     <form action="/customer/store" method="POST">
         @csrf
 
@@ -61,7 +61,7 @@
 
         <br>
         <button type="submit">Simpan Data</button>
-        <a href="/customer">Batal</a>
+        <a href="/customer"><button>Batal</button></a>
     </form>
 </body>
 </html>

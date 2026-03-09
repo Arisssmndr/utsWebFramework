@@ -38,7 +38,7 @@
 
         <div>
             <label>Address</label><br>
-            <textarea name="address" rows="3" required value="{{ $customers->address }}"></textarea>
+            <textarea name="address" rows="3"  required >{{ $customers->address }}"</textarea>
         </div>
 
         <div>
